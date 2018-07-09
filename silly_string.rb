@@ -1,13 +1,13 @@
 
 # Challenge 1: Fill this string in with your favorite word
 
-your_favorite_word = ""
+your_favorite_word = "octopus"
 
 puts "My favorite word is #{your_favorite_word}"
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
-favorite_word_in_all_caps = your_favorite_word # Put a . after your_favorite word and use a String method.
+favorite_word_in_all_caps = your_favorite_word.upcase # Put a . after your_favorite word and use a String method.
 
 puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
@@ -15,7 +15,7 @@ puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
 phrase = "IM NOT SHOUTING"
 
-lowercased_phrase = phrase # Put a . after phrase and use a String method.
+lowercased_phrase = phrase.downcase # Put a . after phrase and use a String method.
 
 puts lowercased_phrase
 
@@ -23,7 +23,7 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.length # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
